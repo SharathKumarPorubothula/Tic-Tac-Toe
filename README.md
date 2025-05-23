@@ -37,4 +37,4 @@ Tailwind CSS for styling
 Framer Motion for smooth UI animations
 
 🚀 Live Demo
-👉 Click here to play Blink Tac Toe
+👉 Click here to play [Blink Tac Toe](https://tictoc-toe.netlify.app/)
