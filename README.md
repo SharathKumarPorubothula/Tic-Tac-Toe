@@ -1,12 +1,40 @@
-# React + Vite
+🎮 Blink Tac Toe
+Blink Tac Toe is a modern, emoji-powered twist on the classic Tic Tac Toe game — built for the Darban.ai Frontend Developer Challenge. It features playful animations, a unique vanishing emoji rule, and supports both 1 vs 1 (two-player) and 1 vs AI game modes!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Key Features
+🔁 Turn-based 2-player game (Player vs Player or Player vs AI)
 
-Currently, two official plugins are available:
+🎭 Choose emoji categories (e.g., 🐶 🐱 🍕 ⚽️) before the match
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⏳ Vanishing Rule: Only 3 active emojis per player — oldest disappears (FIFO logic)
 
-## Expanding the ESLint configuration
+✅ Win by lining up 3 of your own emojis (horizontal, vertical, or diagonal)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💥 Smooth animations for emoji drop and vanish
+
+📱 Fully responsive for desktop and mobile
+
+🧾 In-game help section for new players
+
+🎮 "Play Again" option after each match
+
+🤖 1 vs AI (if implemented)
+Play against a simple AI opponent that:
+
+Randomly selects available cells
+
+Follows the same rules as a human player
+
+Great for practicing your strategy!
+
+Note: AI logic is basic and focuses on fun over difficulty.
+
+🛠 Tech Stack
+React.js (with Vite)
+
+Tailwind CSS for styling
+
+Framer Motion for smooth UI animations
+
+🚀 Live Demo
+👉 Click here to play Blink Tac Toe
